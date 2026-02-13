@@ -344,7 +344,7 @@
   <!-- Button -->
   <div class="flex justify-center mt-10">
     <button
-       class="px-8 sm:px-12 py-3 text-sm md:text-md 
+       class="px-8 sm:px-12 py-3 font-bold text-sm md:text-md 
               border rounded-full border-b-8 
               border-blue-950 bg-[#5751E1] text-white 
               hover:opacity-90 transition">
@@ -366,7 +366,7 @@
 
   <!-- Pink Circle -->
   <div class="absolute 
-              -bottom-10
+              -bottom-14
               left-1/2 
               -translate-x-1/2 
               w-[489px] 
@@ -487,11 +487,11 @@
 
 <section class="reative z-0 px-20 bg-transparent">
 
-<div class="relative z-30 flex justify-center -top-7">
+<div class="relative z-30 flex justify-center -top-2">
   <h1 class="px-5 py-2 font-medium text-md border border-black rounded-full">Testimonial</h1>
 </div>
 
-  <div class="">
+  <div class="mt-7">
 
     <!-- Section Title -->
     <div class="text-center mb-14">
