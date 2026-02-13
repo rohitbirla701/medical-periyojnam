@@ -1,0 +1,1001 @@
+@extends('layouts.app')
+
+@section('title','Home')
+
+@section('content')
+
+ <main class="main bg-pink-100">
+
+    <!-- Courses Hero Section -->
+<section class="">
+  <img 
+    src="/assets/img/education/medical 1herotop.png"
+    alt="Hero Image"
+    class="w-full h-full object-cover"
+  />
+</section>
+
+
+<!-- ABOUT SECTION -->
+<section class="py-24">
+
+  <div class="max-w-7xl mx-auto px-6">
+
+    <div class="grid lg:grid-cols-2 gap-20 items-center">
+
+      <!-- LEFT CONTENT -->
+      <div>
+
+        <h2 class="text-5xl lg:text-7xl font-semibold font-poppins text-[#313131] mb-8">
+          ABOUT US
+        </h2>
+
+        <p class="text-black text-xl font-santoshi font-medium mb-10 leading-8 max-w-xl">
+            Medical Prayojanam is one of the best Coaching Institute in Nagpur Exclusively for NEET. It is the only Institute of Central India which is only preparation for Medical Entrance. Here you will get Central India’s Best Faculty Team & see the Magic of Biology, Strength of Chemistry & Power of Physics. It may change your view towards study. Our main moto is to guide the students for Examination of Medical Entrance. Secondary aim is to promote and encourage all the students to fulfil their dream. If you want to become a Doctor then Join Medical Prayojanam.
+        </p>
+
+        <div class="flex gap-5">
+          <button href="#"
+             class="px-6 py-3 border font-poppins border-red-600 hover:text-white text-red-600 font-medium hover:bg-red-600 bg-pink-100 transition">
+            Learn More
+</button>
+
+          <button href="#"
+             class="px-6 py-3 border border-red-600 hover:text-white text-red-600 font-medium hover:bg-red-600 bg-pink-100 transition">
+            Watch Video
+          </button>
+        </div>
+
+      </div>
+
+
+     <!-- RIGHT STATS -->
+<div class="grid grid-cols-2 gap-8">
+
+  <div class="group bg-white p-10 rounded-2xl shadow-md text-center 
+              transition duration-300 ease-in-out
+              hover:-translate-y-3 hover:shadow-2xl hover:bg-red-50">
+    <h3 class="text-3xl font-bold text-gray-900 mb-2 
+               transition duration-300 group-hover:text-red-600">
+      1000+
+    </h3>
+    <p class="text-gray-500 transition duration-300 group-hover:text-gray-700">
+      Trusted Tutors
+    </p>
+  </div>
+
+  <div class="group bg-white p-10 rounded-2xl shadow-md text-center 
+              transition duration-300 ease-in-out
+              hover:-translate-y-3 hover:shadow-2xl hover:bg-red-50">
+    <h3 class="text-3xl font-bold text-gray-900 mb-2 
+               transition duration-300 group-hover:text-red-600">
+      250+
+    </h3>
+    <p class="text-gray-500 transition duration-300 group-hover:text-gray-700">
+      Employees
+    </p>
+  </div>
+
+  <div class="group bg-white p-10 rounded-2xl shadow-md text-center 
+              transition duration-300 ease-in-out
+              hover:-translate-y-3 hover:shadow-2xl hover:bg-red-50">
+    <h3 class="text-3xl font-bold text-gray-900 mb-2 
+               transition duration-300 group-hover:text-red-600">
+      100+
+    </h3>
+    <p class="text-gray-500 transition duration-300 group-hover:text-gray-700">
+      Branches
+    </p>
+  </div>
+
+  <div class="group bg-white p-10 rounded-2xl shadow-md text-center 
+              transition duration-300 ease-in-out
+              hover:-translate-y-3 hover:shadow-2xl hover:bg-red-50">
+    <h3 class="text-3xl font-bold text-gray-900 mb-2 
+               transition duration-300 group-hover:text-red-600">
+      10+
+    </h3>
+    <p class="text-gray-500 transition duration-300 group-hover:text-gray-700">
+      Awards
+    </p>
+  </div>
+
+</div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- Featured Courses Section -->
+<section class="py-16">
+
+<div class="flex justify-center mb-14">
+    <h2 class="px-6 py-3 font-medium text-lg border border-black rounded-full">Course</h2>
+</div>
+
+  <div class="max-w-7xl mx-auto px-6">
+
+    <!-- Cards Grid -->
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <!-- CARD 1 -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+
+        <img src="/assets/img/education/course_thumb01.jpg.png" 
+             class="w-full h-66 object-cover" 
+             alt="Course">
+
+        <div class="p-6">
+
+          <div class="flex justify-between items-center mb-4">
+            <span class="bg-gray-200 text-sm px-3 py-1 rounded-full">
+              NEET
+            </span>
+
+            <div class="text-right">
+              <span class="line-through text-gray-400 mr-2">$29.00</span>
+              <span class="text-blue-600 font-bold text-lg">$9.00</span>
+            </div>
+          </div>
+
+          <h3 class="text-lg font-semibold text-gray-800 mb-4">
+            Foundation course – 11th+12th
+          </h3>
+
+          <div class="flex justify-between items-center mb-4">
+            <div class="flex items-center gap-2">
+              <img src="/assets/img/education/course_author001.png"
+                   class="w-8 h-8 rounded-full object-cover"
+                   alt="">
+              <span class="text-sm text-gray-600">Mohit Roa</span>
+            </div>
+
+            <div class="text-sm text-gray-500">
+              ⭐ (4.8 Reviews)
+            </div>
+          </div>
+
+          <hr class="mb-4">
+
+          <div class="flex justify-between text-sm text-gray-600">
+            <div>📘 05</div>
+            <div>⏱ 11h 20m</div>
+            <div>🎓 22</div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- CARD 2 -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+
+        <img src="/assets/img/education/course_thumb02.jpg.png" 
+             class="w-full h-66 object-cover" 
+             alt="Course">
+
+        <div class="p-6">
+
+          <div class="flex justify-between items-center mb-4">
+            <span class="bg-gray-200 text-sm px-3 py-1 rounded-full">
+              NEET
+            </span>
+
+            <div>
+              <span class="line-through text-gray-400 mr-2">$20.00</span>
+              <span class="text-blue-600 font-bold text-lg">$10.00</span>
+            </div>
+          </div>
+
+          <h3 class="text-lg font-semibold text-gray-800 mb-4">
+            Countdown course – 12th
+          </h3>
+
+          <div class="flex justify-between items-center mb-4">
+            <div class="flex items-center gap-2">
+              <img src="/assets/img/education/course_author002.png"
+                   class="w-8 h-8 rounded-full object-cover"
+                   alt="">
+              <span class="text-sm text-gray-600">Kriti Mishra</span>
+            </div>
+
+            <div class="text-sm text-gray-500">
+              ⭐ (4.5 Reviews)
+            </div>
+          </div>
+
+          <hr class="mb-4">
+
+          <div class="flex justify-between text-sm text-gray-600">
+            <div>📘 60</div>
+            <div>⏱ 70h 45m</div>
+            <div>🎓 202</div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- CARD 3 -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+
+        <img src="/assets/img/education/course_thumb03.jpg.png" 
+             class="w-full h-66 object-cover" 
+             alt="Course">
+
+        <div class="p-6">
+
+          <div class="flex justify-between items-center mb-4">
+            <span class="bg-gray-200 text-sm px-3 py-1 rounded-full">
+              NEET
+            </span>
+
+            <span class="text-blue-600 font-bold text-lg">$20.00</span>
+          </div>
+
+          <h3 class="text-lg font-semibold text-gray-800 mb-4">
+            Target Course – After 12th passed
+          </h3>
+
+          <div class="flex justify-between items-center mb-4">
+            <div class="flex items-center gap-2">
+              <img src="/assets/img/education/course_author003.png"
+                   class="w-8 h-8 rounded-full object-cover"
+                   alt="">
+              <span class="text-sm text-gray-600">Rohit</span>
+            </div>
+
+            <div class="text-sm text-gray-500">
+              ⭐ (4.8 Reviews)
+            </div>
+          </div>
+
+          <hr class="mb-4">
+
+          <div class="flex justify-between text-sm text-gray-600">
+            <div>📘 08</div>
+            <div>⏱ 18h 20m</div>
+            <div>🎓 66</div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Button -->
+    <div class="flex justify-center mt-7">
+      <button
+         class="inline-block px-7 py-3 border rounded-full border-b-8 border-blue-950 bg-[#5751E1] text-white hover:opacity-90 transition">
+        See All Courses
+      </button>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="relative py-24 overflow-hidden">
+
+  <!-- Pink Circle -->
+  <div class="absolute 
+              bottom-0
+              left-1/2 
+              -translate-x-1/2 
+              w-[489px] 
+              h-[489px] 
+              bg-[#FF7E7E] 
+              rounded-full">
+  </div>
+
+  <div class="relative z-10 px-8 text-center">
+
+    <div class="mb-24 flex justify-center">
+      <h1 class="text-lg py-2 px-4 font-medium border rounded-full border-black shadow-sm">
+        Our Top Doctors
+      </h1>
+    </div>
+
+    <!-- Doctor Cards -->
+<div class="grid md:grid-cols-3 gap-12 items-end">
+
+  <!-- CARD -->
+  <div class="group bg-white rounded-2xl overflow-hidden shadow-lg 
+              transition-all duration-500 
+              h-[520px] hover:h-[580px]">
+
+    <img src="/assets/img/education/front-view-male-student-wearing-black-backpack-holding-copybooks-files-blue-wall 1.png"
+         class="w-full h-[450px] object-cover"
+         alt="">
+
+    <div class="py-4">
+      <h6 class="text-center font-semibold">
+        Ruchita Ghoshpal
+      </h6>
+    </div>
+
+  </div>
+
+  <!-- CARD -->
+  <div class="group bg-white rounded-2xl overflow-hidden shadow-lg 
+              transition-all duration-500 
+              h-[520px] hover:h-[580px]">
+
+    <img src="/assets/img/education/697078c6bd0682489206e2ce 1.png"
+         class="w-full h-[450px] object-cover"
+         alt="">
+
+    <div class="py-4">
+      <h6 class="text-center font-semibold">
+        Satysabrata Pal
+      </h6>
+    </div>
+
+  </div>
+
+  <!-- CARD -->
+  <div class="group bg-white rounded-2xl overflow-hidden shadow-lg 
+              transition-all duration-500 
+              h-[520px] hover:h-[580px]">
+
+    <img src="/assets/img/education/front-view-male-student-wearing-black-backpack-holding-copybooks-files-blue-wall 1 (1).png"
+         class="w-full h-[450px] object-cover"
+         alt="">
+
+    <div class="py-4">
+      <h6 class="text-center font-semibold">
+        Anaya Mukherjee
+      </h6>
+    </div>
+
+  </div>
+
+</div>
+
+  </div>
+</section>
+
+
+
+<section class="z-0 py-20 bg-transparent">
+
+  <div class="max-w-6xl mx-auto px-3">
+
+    <!-- Section Title -->
+    <div class="text-center mb-14">
+      <h2 class="text-3xl font-medium">Testimonials</h2>
+      <p class="text-gray-600 mt-2">
+        Don’t take our word for it. Trust our students
+      </p>
+    </div>
+
+    <!-- Cards -->
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <!-- Card 1 -->
+      <div class="bg-white p-6 rounded-xl shadow-md">
+
+        <div class="flex items-start justify-between mb-4">
+          <div class=" gap-3">
+            <img src="/assets/img/education/Rectangle 729.png"
+                 class="w-10 h-10 object-cover"
+                 alt="">
+            <div>
+              <h4 class="font-semibold mt-2">Floyd Miles</h4>
+            </div>
+          </div>
+
+          <div class="text-yellow-400 text-xl">
+            ★★★★★
+          </div>
+        </div>
+
+        <p class="text-gray-600 text-sm font-normal leading-relaxed">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<br/>
+Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim...
+        </p>
+
+      </div>
+
+
+      <!-- Card 2 -->
+      <div class="bg-white p-6 rounded-xl shadow-md">
+
+        <div class="flex items-start justify-between mb-4">
+          <div class="gap-3">
+            <img src="/assets/img/education/Rectangle 729 (1).png"
+                 class="w-10 h-10 object-cover"
+                 alt="">
+            <div>
+              <h4 class="font-semibold mt-2">Ronald Richards</h4>
+            </div>
+          </div>
+
+          <div class="text-yellow-400 text-xl">
+            ★★★★☆
+          </div>
+        </div>
+
+        <p class="text-gray-600 text-sm leading-relaxed">
+          ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+        </p>
+
+      </div>
+
+
+      <!-- Card 3 -->
+      <div class="bg-white p-6 rounded-xl shadow-md">
+
+        <div class="flex items-start justify-between mb-4">
+          <div class="gap-3">
+            <img src="/assets/img/education/Rectangle 729 (2).png"
+                 class="w-10 h-10 object-cover"
+                 alt="">
+            <div>
+              <h4 class="font-semibold mt-2">Savannah Nguyen</h4>
+            </div>
+          </div>
+
+          <div class="text-yellow-400 text-xl">
+            ★★★★☆
+          </div>
+        </div>
+
+        <p class="text-gray-600 text-sm leading-relaxed">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<br/>
+          Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim...
+        </p>
+        <p></p>
+
+      </div>
+
+    </div>
+
+<!-- Pagination -->
+<div class="relative flex justify-center mt-10">
+
+  <!-- Gradient Background Strip -->
+  <div class="absolute inset-0  mx-56
+              bg-[linear-gradient(90deg,rgba(255,255,255,0)_0%,#CF242A_49.52%,rgba(255,255,255,0)_100%)]
+              opacity-60 
+              rounded-full">
+  </div>
+
+  <!-- Buttons Container -->
+  <div class="relative flex items-center gap-3 
+              px-6 py-2 
+              rounded-full">
+
+    <button class="w-7 h-7 flex items-center justify-center 
+                   bg-white 
+                   rounded-sm text-xs">
+      1
+    </button>
+
+    <button class="w-7 h-7 flex items-center justify-center 
+                   bg-white rounded-sm shadow text-xs">
+      2
+    </button>
+
+    <button class="w-7 h-7 flex items-center justify-center 
+                   bg-white rounded-sm shadow text-xs">
+      3
+    </button>
+
+    <button class="w-7 h-7 flex items-center justify-center 
+                   bg-white border-2 rounded-sm shadow text-xs">
+      4
+    </button>
+
+  </div>
+
+</div>
+
+  </div>
+
+</section>
+
+<section class="bg-[#F6EAEA]">
+
+  <div class="max-w-6xl mx-auto px-6 text-center">
+
+    <!-- Title -->
+    <h1 class="text-3xl font-medium">
+      Our Student Feedback
+    </h1>
+
+    <!-- Video Cards -->
+    <div class="grid md:grid-cols-3 mt-14 gap-8">
+
+<div class="relative rounded-2xl overflow-hidden shadow-lg group">
+
+  <!-- Full Image -->
+  <img src="/assets/img/education/image 3youtube.png"
+       class="w-full object-cover"
+       alt="Student Feedback">
+
+  <!-- Dark Overlay (optional like image depth) -->
+  <div class="absolute inset-0 bg-black/10"></div>
+
+  <!-- YouTube Play Button -->
+  <div class="absolute inset-0 flex items-center justify-center">
+
+    <div class="bg-red-600 
+                w-16 h-12 
+                rounded-lg 
+                flex items-center justify-center 
+                shadow-xl 
+                group-hover:scale-110 
+                transition duration-300">
+
+      <svg xmlns="http://www.w3.org/2000/svg"
+           class="w-6 h-6 text-white"
+           fill="currentColor"
+           viewBox="0 0 16 16">
+        <path d="M6 4.5v7l6-3.5-6-3.5z"/>
+      </svg>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<div class="relative rounded-2xl overflow-hidden shadow-lg group">
+
+  <!-- Full Image -->
+  <img src="/assets/img/education/image 3youtube.png"
+       class="w-full object-cover"
+       alt="Student Feedback">
+
+  <!-- Dark Overlay (optional like image depth) -->
+  <div class="absolute inset-0 bg-black/10"></div>
+
+  <!-- YouTube Play Button -->
+  <div class="absolute inset-0 flex items-center justify-center">
+
+    <div class="bg-red-600 
+                w-16 h-12 
+                rounded-lg 
+                flex items-center justify-center 
+                shadow-xl 
+                group-hover:scale-110 
+                transition duration-300">
+
+      <svg xmlns="http://www.w3.org/2000/svg"
+           class="w-6 h-6 text-white"
+           fill="currentColor"
+           viewBox="0 0 16 16">
+        <path d="M6 4.5v7l6-3.5-6-3.5z"/>
+      </svg>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+      <!-- Duplicate for 3rd -->
+<div class="relative rounded-2xl overflow-hidden shadow-lg group">
+
+  <!-- Full Image -->
+  <img src="/assets/img/education/image 3youtube.png"
+       class="w-full object-cover"
+       alt="Student Feedback">
+
+  <!-- Dark Overlay (optional like image depth) -->
+  <div class="absolute inset-0 bg-black/10"></div>
+
+  <!-- YouTube Play Button -->
+  <div class="absolute inset-0 flex items-center justify-center">
+
+    <div class="bg-red-600 
+                w-16 h-12 
+                rounded-lg 
+                flex items-center justify-center 
+                shadow-xl 
+                group-hover:scale-110 
+                transition duration-300">
+
+      <svg xmlns="http://www.w3.org/2000/svg"
+           class="w-6 h-6 text-white"
+           fill="currentColor"
+           viewBox="0 0 16 16">
+        <path d="M6 4.5v7l6-3.5-6-3.5z"/>
+      </svg>
+
+    </div>
+
+  </div>
+
+</div>
+  </div>
+
+      <!-- Bottom Navigation -->
+    <div class="flex justify-center items-center gap-6 mt-10">
+
+      <button class="w-10 h-10 border border-black rounded-full
+                     flex items-center  justify-center text-gray-500">
+        ‹
+      </button>
+
+      <button class="w-10 h-10 border border-black rounded-full 
+                     flex items-center justify-center text-gray-500">
+        ›
+      </button>
+
+    </div>
+
+</section>
+
+
+<section class="py-20">
+
+<div class="flex justify-center">
+  <h1 class="border rounded-full py-2 px-4 text-lg font-medium border-black">Blog</h1>
+</div>
+
+  <div class="max-w-7xl mx-auto px-6">
+
+    <!-- Section Title -->
+    <div class="mb-12">
+      <h2 class="text-3xl font-bold text-gray-900">
+        Latest Post
+      </h2>
+    </div>
+
+    <!-- Blog Cards -->
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <!-- Card -->
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+
+        <!-- Image -->
+        <img src="/assets/img/education/course_thumb03.jpg.png"
+             class="w-full h-72 object-cover"
+             alt="Blog">
+
+        <div class="p-6">
+
+          <!-- Category -->
+          <span class="text-sm bg-blue-100 text-blue-600 px-3 py-1 rounded-md">
+            Medical
+          </span>
+
+          <!-- Title -->
+          <h3 class="mt-4 text-xl font-semibold text-gray-900 leading-snug">
+            Trusted NEET Coaching Classes in Nagpur for Future Doctors
+          </h3>
+
+          <!-- Author -->
+          <div class="flex items-center gap-3 mt-6">
+
+            <img src="/assets/img/blog/blogprofileImage (1).png"
+                 class="w-9 h-9 rounded-full object-cover"
+                 alt="Author">
+
+            <div class="text-sm text-gray-600">
+              <span class="font-medium text-gray-800">Tracey Wilson</span>
+              <span class="mx-2">•</span>
+              August 20, 2022
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Card 2 -->
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+
+        <img src="/assets/img/education/course_thumb02.jpg.png"
+             class="w-full h-72 object-cover"
+             alt="Blog">
+
+        <div class="p-6">
+
+          <span class="text-sm bg-blue-100 text-blue-600 px-3 py-1 rounded-md">
+            Medical
+          </span>
+
+          <h3 class="mt-4 text-xl font-semibold text-gray-900 leading-snug">
+            Trusted NEET Coaching Classes in Nagpur for Future Doctors
+          </h3>
+
+          <div class="flex items-center gap-3 mt-6">
+
+            <img src="/assets/img/blog/blogprofileImage (2).png"
+                 class="w-9 h-9 rounded-full object-cover"
+                 alt="Author">
+
+            <div class="text-sm text-gray-600">
+              <span class="font-medium text-gray-800">Jason Francisco</span>
+              <span class="mx-2">•</span>
+              August 20, 2022
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Card 3 -->
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+
+        <img src="/assets/img/education/Rectangle 38.png"
+             class="w-full h-72 object-cover"
+             alt="Blog">
+
+        <div class="p-6">
+
+          <span class="text-sm bg-blue-100 text-blue-600 px-3 py-1 rounded-md">
+            Medical
+          </span>
+
+          <h3 class="mt-4 text-xl font-semibold text-gray-900 leading-snug">
+            Trusted NEET Coaching Classes in Nagpur for Future Doctors
+          </h3>
+
+          <div class="flex items-center gap-3 mt-6">
+
+            <img src="/assets/img/blog/blogprofileImage (3).png"
+                 class="w-9 h-9 rounded-full object-cover"
+                 alt="Author">
+
+            <div class="text-sm text-gray-600">
+              <span class="font-medium text-gray-800">Elizabeth Slavin</span>
+              <span class="mx-2">•</span>
+              August 20, 2022
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<div class="flex justify-center">
+  <h3 class="py-2 px-4 font-medium text-lg border border-black rounded-full">Enquiry form with lead</h3>
+</div>
+
+<section class="py-20">
+
+  <div class="max-w-6xl mx-auto px-6">
+
+    <div class="grid md:grid-cols-2 gap-10 items-center">
+
+      <!-- LEFT: FORM CARD -->
+      <div class="bg-white rounded-2xl h-full shadow-md p-8">
+
+        <h1 class="text-4xl font-bold text-red-600 mb-6">
+          Admission Enquiry Form
+        </h1>
+
+        <form class="space-y-4">
+
+          <!-- Full Name -->
+          <div>
+            <label class="text-sm text-gray-600">Full Name</label>
+            <div class="grid grid-cols-2 gap-3 mt-1">
+              <input type="text" placeholder="First"
+                     class="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-red-400">
+              <input type="text" placeholder="Last"
+                     class="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-red-400">
+            </div>
+          </div>
+
+          <!-- Phone -->
+          <div>
+            <label class="text-sm text-gray-600">Phone no</label>
+            <input type="text" placeholder="Phone number"
+                   class="w-full mt-1 border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-red-400">
+          </div>
+
+          <!-- Course -->
+          <div>
+            <label class="text-sm text-gray-600">Course name</label>
+            <select class="w-full mt-1 border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-red-400">
+              <option>Choose course</option>
+              <option>NEET</option>
+              <option>Medical</option>
+            </select>
+          </div>
+
+          <!-- City -->
+          <div>
+            <label class="text-sm text-gray-600">City</label>
+            <input type="text"
+                   class="w-full mt-1 border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-red-400">
+          </div>
+
+          <!-- Query -->
+          <div>
+            <label class="text-sm text-gray-600">Query</label>
+            <textarea rows="3"
+                      class="w-full mt-1 border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-red-400"></textarea>
+          </div>
+
+          <!-- Submit -->
+          <button type="submit"
+                  class="bg-red-600 text-white px-6 py-2 rounded-md text-sm hover:bg-red-700 transition">
+            Submit
+          </button>
+
+        </form>
+
+      </div>
+
+
+      <!-- RIGHT: IMAGE -->
+      <div class="rounded-2xl overflow-hidden shadow-md">
+        <img src="/assets/img/education/formImage.png"
+             class="w-full object-cover"
+             alt="Doctors">
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="py-20">
+
+  <div class="max-w-7xl mx-auto   px-6 relative">
+
+    <!-- Pink Rounded Container -->
+    <div class="bg-[#E8B7B7] rounded-4xl 
+                px-12 py-16 h-full
+                relative overflow-visible">
+
+      <div class="">
+
+        <h2 class="relative text-5xl font-medium text-black mb-10">
+          Download our app
+        </h2>
+
+        <!-- QR Codes -->
+        <div class="flex gap-6 mb-8">
+
+          <div class="bg-white p-4 rounded-2xl shadow-md">
+            <img src="/assets/icons/barcode.png"
+                 class="w-32 h-32 object-contain"
+                 alt="">
+          </div>
+
+          <div class="bg-white p-4 rounded-2xl shadow-md">
+            <img src="/assets/icons/barcode.png"
+                 class="w-32 h-32 object-contain"
+                 alt="">
+          </div>
+
+        </div>
+
+        <!-- Store Buttons -->
+        <div class="text-left">
+          <img src="/assets/img/education/PhotoshopExtension_Image (3) 1.png"
+               class="h-24 object-contain"
+               alt="">
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- iPhone Floating Image -->
+    <div class="absolute 
+                right-0 
+                bottom-0
+                md:right-10">
+
+      <img src="/assets/img/education/iphoneMask group (3).png"
+           class="h-full object-contain drop-shadow-2xl"
+           alt="App Preview">
+
+    </div>
+
+  </div>
+
+</section>
+
+<div class="flex justify-center mb-10">
+  <h4 class="py-2 px-4 font-medium text-lg border rounded-full border-black">Award and achievenment</h4>
+</div>
+
+<section class="relative py-16 mb-16 overflow-hidden">
+
+  <!-- Background Image -->
+  <div class="absolute inset-0">
+    <img src="/assets/img/bg/badgeBGimage.png"
+         class="w-full h-full object-cover opacity-100"
+         alt="">
+  </div>
+
+  <!-- Dark Overlay -->
+  <div class="absolute inset-0"></div>
+
+  <div class="relative max-w-7xl mx-auto px-6">
+
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-10 text-center">
+
+      <!-- ITEM -->
+      <div class="flex flex-col items-center text-white">
+
+        <!-- Badge Image -->
+        <img src="/assets/img/education/badgeGroup 1000006861.png"
+             class="w-44 h-44 object-contain mb-6"
+             alt="Badge">
+
+        <h1 class="text-6xl text-white font-light">
+          2020
+        </h1>
+
+        <p class="text-sm text-white mt-2 font-normal leading-6 max-w-44">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+
+      </div>
+
+      <!-- Duplicate 4 more -->
+      <div class="flex flex-col items-center text-white">
+        <img src="/assets/img/education/badgeGroup 1000006861.png"
+             class="w-44 h-44 object-contain mb-6"
+             alt="">
+        <h1 class="text-6xl text-white font-light">2020</h1>
+        <p class="text-sm font-normal text-white mt-2 max-w-44">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+      </div>
+
+      <div class="flex flex-col items-center text-white">
+        <img src="/assets/img/education/badgeGroup 1000006861.png"
+             class="w-44 h-44 object-contain mb-6"
+             alt="">
+        <h1 class="text-6xl text-white font-light">2020</h1>
+        <p class="text-sm text-white font-normal mt-2 max-w-44">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+      </div>
+
+      <div class="flex flex-col items-center text-white">
+        <img src="/assets/img/education/badgeGroup 1000006861.png"
+             class="w-44 h-44 object-contain mb-6"
+             alt="">
+        <h1 class="text-6xl text-white font-light">2020</h1>
+        <p class="text-sm text-white font-normal  mt-2 max-w-44">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+      </div>
+
+      <div class="flex flex-col items-center text-white">
+        <img src="/assets/img/education/badgeGroup 1000006861.png"
+             class="w-44 h-44 object-contain mb-6"
+             alt="">
+        <h1 class="text-6xl text-white font-light">2020</h1>
+        <p class="text-sm text-white font-normal mt-2 max-w-44">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+  </main>
+
+@endsection
