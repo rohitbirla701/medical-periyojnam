@@ -1,52 +1,52 @@
-<div class="flex justify-center">
+<header class="fixed top-4 left-1/2 -translate-x-1/2 
+               w-[85%] max-w-7xl 
+               bg-white shadow-md rounded-full z-50">
 
-<header class="absolute fixed w-full top-6 rounded-full z-50 bg-white shadow-sm">
+  <div class="px-6 lg:px-10">
 
-  <div class="px-7">
-
-    <div class="flex items-center justify-between h-20">
+    <div class="flex items-center justify-between h-16 lg:h-20">
 
       <!-- Logo -->
-      <a href="/" class="flex items-center mt-8">
+      <a href="/" class="flex items-center">
         <img src="{{ asset('/assets/img/education/footerlogo.png') }}" 
              alt="Logo"
-             class="h-32 w-32">
+             class="h-10 lg:h-32 lg:mt-7 w-auto">
       </a>
 
       <!-- Desktop Menu -->
-      <nav class="hidden md:flex items-center gap-10 text-sm font-medium text-gray-700">
+      <nav class="hidden md:flex items-center gap-8 lg:gap-6 text-sm font-medium text-gray-700">
 
         <a href="/" class="hover:text-red-500 transition">Home</a>
         <a href="/about" class="hover:text-red-500 transition">About</a>
-        <a href="/foundationcourse" class="hover:text-red-500 transition">Courses</a>
-        <a href="/instructors" class="hover:text-red-500 transition">Instructors</a>
-        <a href="/pricing" class="hover:text-red-500 transition">Pricing</a>
+        <a href="/instructors" class="hover:text-red-500 transition">Announcement</a>
+        <a href="/pricing" class="hover:text-red-500 transition">Courses</a>
         <a href="/blog" class="hover:text-red-500 transition">Blog</a>
-        <a href="/contact" class="hover:text-red-500 transition">Contact</a>
+        <a href="/contact" class="hover:text-red-500 transition">Contact us</a>
 
       </nav>
 
-      <!-- Right Side Buttons -->
+      <!-- Right Buttons (Desktop) -->
       <div class="hidden md:flex items-center">
 
         <a href="/login"
-           class="px-4 py-2 rounded-full bg-black text-white text-xl font-inter font-medium hover:opacity-90 transition">
+           class="px-4 py-2 rounded-full bg-black text-white text-md hover:opacity-90 transition">
           Login
         </a>
 
-       <a href="/enroll"
-   class="inline-flex items-center px-3 py-3 rounded-full bg-black text-white text-sm hover:bg-red-700 transition">
+        <a href="/enroll"
+           class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-black text-white hover:bg-red-600 transition">
 
-    <img src="{{ asset('/assets/icons/headerarrow.png') }}" 
-         alt="Enroll Icon" 
-         class="w-4 h-4">
-</a>
+          <img src="{{ asset('/assets/icons/headerarrow.png') }}" 
+               alt="Enroll Icon" 
+               class="w-4 h-4">
+
+        </a>
 
       </div>
 
-      <!-- Mobile Menu Button -->
+      <!-- Mobile Button -->
       <button id="menu-btn"
-              class="md:hidden text-2xl text-gray-700">
+              class="md:hidden text-2xl text-gray-700 focus:outline-none">
         ☰
       </button>
 
@@ -54,15 +54,15 @@
 
     <!-- Mobile Menu -->
     <div id="mobile-menu"
-         class="hidden md:hidden  flex-col gap-4 py-4 text-sm font-medium text-gray-700">
+     class="hidden md:hidden flex flex-col gap-4 pb-6 pt-4 text-sm font-medium text-gray-700">
 
-      <a href="/">Home</a>
-      <a href="/about">About</a>
-      <a href="/foundationcourse">Courses</a>
-      <a href="/instructors">Instructors</a>
-      <a href="/pricing">Pricing</a>
-      <a href="/blog">Blog</a>
-      <a href="/contact">Contact</a>
+
+      <a href="/" class="hover:text-red-500">Home</a>
+      <a href="/about" class="hover:text-red-500">About</a>
+      <a href="/instructors" class="hover:text-red-500">Announcement</a>
+      <a href="/pricing" class="hover:text-red-500">Courses</a>
+      <a href="/blog" class="hover:text-red-500">Blog</a>
+      <a href="/contact" class="hover:text-red-500">Contact</a>
 
       <a href="/login"
          class="px-4 py-2 rounded-full bg-black text-white text-center">
@@ -70,16 +70,41 @@
       </a>
 
       <a href="/enroll"
-   class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-600 text-white">
+         class="inline-flex items-center justify-center w-full py-2 rounded-full bg-red-600 text-white">
 
-   <img src="{{ asset('/assets/icons/headerarrow.png') }}" 
-        alt="Logo" 
-        class="w-5 h-5">
-</a>
+        <img src="{{ asset('/assets/icons/headerarrow.png') }}" 
+             alt="Enroll" 
+             class="w-5 h-5">
+
+      </a>
 
     </div>
 
   </div>
 
 </header>
-</div>
+
+
+
+
+
+
+
+
+@push('scripts')
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+
+    const btn = document.getElementById('menu-btn');
+    const menu = document.getElementById('mobile-menu');
+
+    if (btn && menu) {
+      btn.addEventListener('click', function () {
+        menu.classList.toggle('hidden');
+      });
+    }
+
+  });
+</script>
+@endpush
+
