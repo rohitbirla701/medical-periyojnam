@@ -1,4 +1,4 @@
-<footer class="bg-[#D62828] text-white h-90 px-7 w-full">
+<footer class="bg-[#D62828] text-white h-80 px-7 w-full">
 
   <div>
 
@@ -90,25 +90,25 @@
         <div class="flex gap-4">
 
           <a href="#">
-            <img src="{{ asset('/assets/icons/facebook logo.png') }}"
+            <img src="{{ asset('/assets/icons/Group 85.svg') }}"
                  class="w-6 h-6 hover:scale-110 transition duration-300"
                  alt="Facebook">
           </a>
 
           <a href="#">
-            <img src="{{ asset('/assets/icons/Twitter logo.png') }}"
+            <img src="{{ asset('/assets/icons/Group 86.svg') }}"
                  class="w-6 h-6 hover:scale-110 transition duration-300"
                  alt="Twitter">
           </a>
 
           <a href="#">
-            <img src="{{ asset('/assets/icons/Vector (3).png') }}"
+            <img src="{{ asset('/assets/icons/Group 87.svg') }}"
                  class="w-6 h-6 hover:scale-110 transition duration-300"
                  alt="LinkedIn">
           </a>
 
           <a href="#">
-            <img src="{{ asset('/assets/icons/Vector (4).png') }}"
+            <img src="{{ asset('/assets/icons/Group 88.svg') }}"
                  class="w-6 h-6 hover:scale-110 transition duration-300"
                  alt="Instagram">
           </a>

@@ -853,10 +853,14 @@ Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt 
 
 <section class="py-20">
 
+<div class="flex justify-center mb-28">
+    <h1 class="px-4 py-2 border font-medium text-lg font-santoshi border-black rounded-full">Download our app</h1>
+</div>
+
   <div class="max-w-7xl mx-auto   px-6 relative">
 
     <!-- Pink Rounded Container -->
-    <div class="bg-[#E8B7B7] rounded-4xl 
+    <div class="bg-[#E8B7B7] rounded-3xl 
                 px-12 py-16 h-full
                 relative overflow-visible">
 
@@ -980,12 +984,12 @@ Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt 
         </p>
       </div>
 
-      <div class="flex flex-col items-center text-white">
+      <div class="flex flex-col  items-center text-white">
         <img src="/assets/img/education/badgeGroup 1000006861.png"
              class="w-44 h-44 object-contain mb-6"
              alt="">
-        <h1 class="text-6xl text-white font-light">2020</h1>
-        <p class="text-sm text-white font-normal mt-2 max-w-44">
+        <h1 class="text-6xl font-santoshi text-white font-light">2020</h1>
+        <p class="text-sm font-santoshi text-white font-normal mt-2 max-w-44">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         </p>
       </div>
