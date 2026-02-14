@@ -162,7 +162,7 @@
 </section>
 
 <section class="pt-12">
-    <div class="bg-[#FFEAEA] w-full px-28">
+    <div class="bg-[#FFEAEA] w-full px-24">
         <div class="flex justify-center pt-12">
             <h2 class="px-6 py-2 border border-black rounded-full font-medium text-lg">Courses Description</h2>
         </div>
@@ -205,7 +205,7 @@
 
 </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 px-6 lg:px-20 py-10">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 px-6 lg:px-16 py-10">
 
     <!-- LEFT LIST -->
     <div class="font-medium text-2xl">
