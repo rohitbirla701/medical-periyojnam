@@ -21,7 +21,7 @@
         <a href="/" class="hover:text-red-500 transition">Home</a>
         <a href="/#about" class="hover:text-red-500 transition">About</a>
         <a href="/instructors" class="hover:text-red-500 transition">Announcement</a>
-        <a href="/#courses" class="hover:text-red-500 transition">Courses</a>
+        <a href="/foundationcourse" class="hover:text-red-500 transition">Courses</a>
         <a href="/#blog" class="hover:text-red-500 transition">Blog</a>
         <a href="/#contact" class="hover:text-red-500 transition">Contact us</a>
 

@@ -27,7 +27,7 @@
 
       <!-- Pages -->
       <div>
-        <h4 class="font-bold text-md mb-5">Pages</h4>
+        <h4 class="font-bold text-lg mb-5">Pages</h4>
         <ul class="space-y-3 text-sm">
           <li class="hover:underline cursor-pointer">How it works</li>
           <li class="hover:underline cursor-pointer">Pricing</li>
@@ -38,7 +38,7 @@
 
       <!-- Service -->
       <div>
-        <h4 class="font-bold text-md mb-5">Service</h4>
+        <h4 class="font-bold text-lg mb-5">Service</h4>
         <ul class="space-y-3 text-sm">
           <li class="hover:underline cursor-pointer">Shopify</li>
           <li class="hover:underline cursor-pointer">WordPress</li>
@@ -48,7 +48,7 @@
 
       <!-- Contact -->
       <div>
-        <h4 class="font-bold text-md mb-5">Contact</h4>
+        <h4 class="font-bold text-lg mb-5">Contact</h4>
 
         <div class="space-y-4 text-sm">
 
@@ -82,7 +82,7 @@
 
       <!-- Social -->
       <div>
-        <h4 class="font-bold text-md mb-5">Social media</h4>
+        <h4 class="font-bold text-lg mb-5">Social media</h4>
 
         <div class="flex gap-4">
           <a href="#">

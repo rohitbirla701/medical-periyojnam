@@ -47,7 +47,7 @@
                     </p>
 
                     <!-- FEATURES -->
-                    <div class="grid grid-cols-2 md:grid-cols-4 gap-10">
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
 
                         <!-- ITEM -->
                         <div class="flex flex-col items-start space-y-3">
@@ -144,7 +144,7 @@
         <div class="flex justify-center mt-10">
       <div class="bg-[#F8CACA] p-6 w-[85%] max-w-7xl flex justify-between items-center">
 
-        <div class="flex items-center gap-4">
+        <div class="flex items-center text-center gap-4">
           <span class="font-medium text-3xl">Subjects Covered :</span>
 
           <span class="bg-white px-4 py-1 rounded-full font-medium text-sm">Physics</span>
