@@ -11,13 +11,13 @@
   <img 
     src="/assets/img/education/medical 1herotop.png"
     alt="Hero Image"
-    class="w-full h-full object-cover"
+    class="w-full h-full rounded-3xl object-cover"
   />
 </section>
 
 
 <!-- ABOUT SECTION -->
-<section class="py-10 md:pt-16 px-6 md:px-12 lg:px-20">
+<section id="about" class="py-10 md:pt-16 px-6 md:px-12 lg:px-20">
 
   <div class="max-w-7xl mx-auto">
 
@@ -135,7 +135,7 @@
 
 
 <!-- Featured Courses Section -->
-<section class="px-6 sm:px-10 md:px-4 lg:px-20 py-10">
+<section id="courses" class="px-6 sm:px-10 md:px-4 lg:px-20 py-10">
 
   <!-- Heading -->
   <div class="flex justify-center mb-10 md:mb-14">
@@ -150,71 +150,76 @@
 
     <!-- CARD 1 -->
     <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+<a href="{{ route('foundationcourse') }}" >
 
-      <img src="/assets/img/education/course_thumb01.jpg.png" 
-           class="w-full h-52 sm:h-56 md:h-60 lg:h-72 object-cover p-3 sm:p-4 lg:p-5" 
-           alt="Course">
+    <img src="/assets/img/education/course_thumb01.jpg.png" 
+         class="w-full h-52 sm:h-56 md:h-60 lg:h-72 object-cover p-3 sm:p-4 lg:p-5" 
+         alt="Course">
 
-      <div class="p-4 sm:p-5 md:p-6">
+    <div class="p-4 sm:p-5 md:p-6">
 
         <div class="flex justify-between items-center mb-4">
-          <span class="bg-[#EFEFF2] font-medium text-xs sm:text-sm px-3 py-1 rounded-full">
-            NEET
-          </span>
+            <span class="bg-[#EFEFF2] font-medium text-xs sm:text-sm px-3 py-1 rounded-full">
+                NEET
+            </span>
 
-          <div class="text-right text-sm sm:text-base">
-            <span class="line-through text-[#7F7E97] mr-2">$29.00</span>
-            <span class="text-[#5751E1] font-semibold">$9.00</span>
-          </div>
+            <div class="text-right text-sm sm:text-base">
+                <span class="line-through text-[#7F7E97] mr-2">$29.00</span>
+                <span class="text-[#5751E1] font-semibold">$9.00</span>
+            </div>
         </div>
 
-        <h3 class="text-base sm:text-lg font-bold text-[#161439] mb-4">
-          Foundation course – 11th+12th
+        <h3 class="text-base sm:text-lg font-bold text-[#161439] mb-4 hover:text-[#5751E1] transition">
+            Foundation course – 11th+12th
         </h3>
 
         <div class="flex justify-between items-center mb-4">
-          <div class="flex items-center gap-2">
-            <img src="assets/img/education/Link → course_author001.png.png"
-                 class="w-7 h-7 sm:w-8 sm:h-8 object-cover"
-                 alt="">
-            <span class="text-lg text-[#6D6C80]">Mohit Rao</span>
-          </div>
+            <div class="flex items-center gap-2">
+                <img src="assets/img/education/Link → course_author001.png.png"
+                     class="w-7 h-7 sm:w-8 sm:h-8 object-cover"
+                     alt="">
+                <span class="text-lg text-[#6D6C80]">Mohit Rao</span>
+            </div>
 
-          <div class="text-xs sm:text-lg text-[#7F7E97]">
-            ⭐ (4.8 Reviews)
-          </div>
+            <div class="text-xs sm:text-lg text-[#7F7E97]">
+                ⭐ (4.8 Reviews)
+            </div>
         </div>
 
         <hr class="mb-4 border border-[#B5B5C3]">
 
         <div class="flex justify-between text-xs sm:text-lg font-normal text-[#1C1A4A]">
 
-          <div class="flex items-center gap-2">
-            <img src="{{ asset('/assets/icons/walleticon.png') }}" 
-                 class="w-5 h-5">
-            05 .
-          </div>
+            <div class="flex items-center gap-2">
+                <img src="{{ asset('/assets/icons/walleticon.png') }}" 
+                     class="w-5 h-5">
+                05
+            </div>
 
-          <div class="flex items-center gap-2">
-            <img src="{{ asset('/assets/icons/watchicon.png') }}" 
-                 class="w-5 h-5">
-            11h 20m .
-          </div>
+            <div class="flex items-center gap-2">
+                <img src="{{ asset('/assets/icons/watchicon.png') }}" 
+                     class="w-5 h-5">
+                11h 20m
+            </div>
 
-          <div class="flex items-center gap-2">
-            <img src="{{ asset('/assets/icons/capicon.png') }}" 
-                 class="w-5 h-5">
-            22
-          </div>
+            <div class="flex items-center gap-2">
+                <img src="{{ asset('/assets/icons/capicon.png') }}" 
+                     class="w-5 h-5">
+                22
+            </div>
 
         </div>
 
-      </div>
+    </div>
+
+</a>
+
     </div>
 
 
     <!-- CARD 2 -->
     <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+      <a href="{{ route('foundationcourse') }}" >
 
       <img src="/assets/img/education/course_thumb02.jpg.png" 
            class="w-full h-52 sm:h-56 md:h-60 lg:h-72 object-cover p-3 sm:p-4 lg:p-5" 
@@ -275,6 +280,7 @@
         </div>
 
       </div>
+</a>
     </div>
 
 
@@ -594,7 +600,7 @@ Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt 
 <div class="relative flex justify-center mt-5">
 
   <!-- Gradient Background Strip -->
-  <div class="absolute inset-0  mx-56
+  <div class="absolute inset-0  lg:mx-56
               bg-[linear-gradient(90deg,rgba(255,255,255,0)_0%,#CF242A_49.52%,rgba(255,255,255,0)_100%)]
               opacity-100 
               rounded-full">
@@ -768,7 +774,7 @@ Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt 
 </section>
 
 
-<section class="py-10 px-20">
+<section id="blog" class="py-10 px-20">
 
 <div class="flex justify-center mb-10">
   <h1 class="border rounded-full py-2 px-8 text-lg font-medium border-black">Blog</h1>
@@ -910,7 +916,7 @@ Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt 
   <h3 class="py-2 px-4 font-medium text-lg border border-black rounded-full">Enquiry form with lead</h3>
 </div>
 
-<section class="py-20 px-20">
+<section id="contact" class="py-20 px-20">
 
   <div class="">
 
